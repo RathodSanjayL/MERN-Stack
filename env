@@ -1,0 +1,3 @@
+NODE_ENV=developement
+MONGO_URI=mongodb://127.0.0.1:27017/mernstack
+SECRET_OR_KEY=bAKVdqczerYAYKdMxsaBzbFUJU6ZvL2LwZuxhtpS

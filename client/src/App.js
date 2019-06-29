@@ -1,9 +1,13 @@
+/**
+ * Create By Sanjay 
+ * This App file is Manage All Activities from Here All files Import Here 
+ */
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import jwt_decode from 'jwt-decode';
-import setAuthToken from './utils/setAuthToken';
-import { setCurrentUser, logoutUser } from './actions/authActions';
-import { clearCurrentProfile } from './actions/profileActions';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';//Import For Redirect Page
+import jwt_decode from 'jwt-decode';//Import for Decode JTW Token which get from API with User Info
+import setAuthToken from './utils/setAuthToken';//Set Authentication Token 
+import { setCurrentUser, logoutUser } from './actions/authActions';//Import Action for Check Current User Info /Logout User
+import { clearCurrentProfile } from './actions/profileActions';//import action for Clear Current Profile when User in Loged Out
 
 import { Provider } from 'react-redux';
 import store from './store';

@@ -1,3 +1,7 @@
+/**
+ * Create By Sanjay 
+ * Component That Shows As Dashboard of Our App
+ */
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
@@ -20,6 +24,7 @@ class Dashboard extends Component {
   render() {
     const { user } = this.props.auth;
     const { profile, loading } = this.props.profile;
+    console.log("Profle",this.props.profile)
 
     let dashboardContent;
 
